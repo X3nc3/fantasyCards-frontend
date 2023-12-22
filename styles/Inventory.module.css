@@ -1,0 +1,24 @@
+.container {
+  background-color: #36393b;
+  height: 74vh;
+  display: flex;
+  justify-content: center;
+}
+
+.main{
+    background-color: #36393b;
+    display: flex;
+}
+
+.content {
+  width: 90%;
+  background-color: white;
+  font-family: "Calistoga";
+  height: 85%;
+  
+}
+
+.cardContainer, .packContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
