@@ -14,7 +14,7 @@ function PendingGame(props) {
 
   useEffect(() => {
     fetch(
-      `http://fantasy-cards-backend.vercel.app/games/teams/${props.teamHomeId}/${props.teamAwayId}`
+      `https://fantasy-cards-backend.vercel.app/games/teams/${props.teamHomeId}/${props.teamAwayId}`
     )
       .then((response) => response.json())
       .then((data) => {
@@ -38,7 +38,7 @@ function PendingGame(props) {
   };
 
   const handleSelectedCard = (name) => {
-    fetch(`http://fantasy-cards-backend.vercel.app/card/find/${name}`)
+    fetch(`https://fantasy-cards-backend.vercel.app/card/find/${name}`)
       .then((response) => response.json())
       .then((card) => {
         setSelectedCard([...selectedCard, card.data]);

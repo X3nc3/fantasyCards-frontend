@@ -9,7 +9,7 @@ function MatchFinished() {
   const infoFinishGames = useSelector((state) => state.games.value.finishGames);
 
   useEffect(() => {
-    fetch("http://fantasy-cards-backend.vercel.app/games/MatchFinished")
+    fetch("https://fantasy-cards-backend.vercel.app/games/MatchFinished")
       .then((response) => response.json())
       .then((data) => {
         dispatch(addFinishGamesToStore(data.games));

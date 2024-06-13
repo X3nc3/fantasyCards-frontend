@@ -10,7 +10,7 @@ function SellPackModal({ id, packId }) {
   const dispatch = useDispatch();
 
   const handleSetPrice = () => {
-    fetch(`http://fantasy-cards-backend.vercel.app/pack/sell/${token}/${id}`, {
+    fetch(`https://fantasy-cards-backend.vercel.app/pack/sell/${token}/${id}`, {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ price: price }),

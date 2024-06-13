@@ -11,7 +11,7 @@ function AddCardInGameModal(props) {
 
   useEffect(() => {
     fetch(
-      `http://fantasy-cards-backend.vercel.app/card/${props.teamHomeId}/${props.teamAwayId}/${token}`
+      `https://fantasy-cards-backend.vercel.app/card/${props.teamHomeId}/${props.teamAwayId}/${token}`
     )
       .then((response) => response.json())
       .then((data) => {

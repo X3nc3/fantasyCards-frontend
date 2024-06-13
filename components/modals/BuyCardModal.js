@@ -6,7 +6,7 @@ function BuyCardModal({ id, sellerToken, price }) {
 
   const handleBuyCard = () => {
     fetch(
-      `http://fantasy-cards-backend.vercel.app/card/buy/${token}/${sellerToken}/${id}`,
+      `https://fantasy-cards-backend.vercel.app/card/buy/${token}/${sellerToken}/${id}`,
       {
         method: "PUT",
         headers: { "Content-Type": "application/json" },

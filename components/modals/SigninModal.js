@@ -17,7 +17,7 @@ function SigninModal() {
   };
 
   const handleSignin = () => {
-    fetch("http://fantasy-cards-backend.vercel.app/users/signin", {
+    fetch("https://fantasy-cards-backend.vercel.app/users/signin", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ email: signinEmail, password: signinPassword }),
