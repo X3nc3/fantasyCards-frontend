@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  flex-direction:column;
+  margin: 0px 40px;
+}
+
+.content {
+  display: flex;
+  flex-direction:column;
+  background-color: rgb(254, 254, 254);
+  width: 100%;
+  height: auto;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.cards{
+  display: flex;
+  overflow: auto;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.boxTitle2 {
+  font-family: 'Bangers';
+  font-weight: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.cardButtonContainer {
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  width: 175px;
+}
+
+
+.cardButton {
+  background-color: #F2AA4C;
+  border-radius: 4px;
+  font-family: "Bangers";
+  color : #000000;
+  height: 30px;
+  width: 50px;
+}
+
+.divider {
+    width: 70%;
+    height: 1px;
+    background-color: rgb(233, 190, 89);
+    margin: 15px 0px 15px 0px;
+  padding-right: 70%;
+}
+
+.packs{
+  display: flex;
+  width: 100%;
+  height: 100%;
+}

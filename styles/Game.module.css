@@ -1,0 +1,66 @@
+.container {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-y: scroll;
+}
+/* .title {
+  margin: 0;
+  font-family: "Bangers";
+  font-weight: normal;
+  text-decoration: underline;
+  font-size: 3em;
+  color: #f2aa4c;
+}
+.resumeContainer {
+  background-color: white;
+  height: 150px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  font-family: "Calistoga";
+}
+.allEventContainer {
+  background-color: white;
+  height: 1000px;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.eventContainer {
+  background-color: #36393b;
+  margin-left: 40px;
+  margin-right: 40px;
+  max-height: 300px;
+}
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-family: "Calistoga";
+}
+.littleTitle {
+  font-family: "Bangers";
+  color: #f2aa4c;
+  font-size: 1.7em;
+}
+.buttumContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+.buttum {
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  background-color: #f2aa4c;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-family: "Bangers";
+  font-size: 1.5em;
+} */
